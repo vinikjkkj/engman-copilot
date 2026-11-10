@@ -1,0 +1,36 @@
+# Segredos e credenciais - nunca versionar
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials*.json
+
+# Python (Sprint 3 em diante)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Banco vetorial e caches locais (gerados a partir da base, não versionar)
+chroma_db/
+*.sqlite3
+*.faiss
+.cache/
+
+# Dados reais: proibidos neste repositório (somente dados SIMULADOS)
+data/raw/
+data/real/
+
+# Logs (podem conter conversas)
+*.log
+logs/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
