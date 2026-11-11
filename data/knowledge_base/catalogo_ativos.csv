@@ -1,0 +1,40 @@
+tag,tipo_ativo,fabricante,modelo,km_praca,praca,faixa,data_instalacao,vida_util_anos,criticidade,observacao,origem
+LAC-P1-F01-01,laco_indutivo,SensoSim,SS-LOOP2,87,P1,F01,2022-09-12,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P1-F01-01,sensor_eixo,EixoSim,ES-PZ2,87,P1,F01,2022-09-12,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P1-F01-01,controlador_pista,ControlSim,CS-PL400,87,P1,F01,2019-03-01,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias,SIMULADO
+LAC-P1-F02-01,laco_indutivo,SensoSim,SS-LOOP2,87,P1,F02,2022-09-12,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P1-F02-01,sensor_eixo,EixoSim,ES-PZ2,87,P1,F02,2022-09-12,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P1-F02-01,controlador_pista,ControlSim,CS-PL400,87,P1,F02,2019-03-01,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias,SIMULADO
+LAC-P1-F03-01,laco_indutivo,SensoSim,SS-LOOP2,87,P1,F03,2022-09-12,5,B,Faixa mista (manual + TAG) - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P1-F03-01,sensor_eixo,EixoSim,ES-PZ2,87,P1,F03,2022-09-12,5,B,Faixa mista (manual + TAG) - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P1-F03-01,controlador_pista,ControlSim,CS-PL400,87,P1,F03,2019-03-01,10,B,Faixa mista (manual + TAG) - classifica pela tabela de categorias,SIMULADO
+LAC-P1-F04-01,laco_indutivo,SensoSim,SS-LOOP2,87,P1,F04,2022-09-12,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P1-F04-01,sensor_eixo,EixoSim,ES-PZ2,87,P1,F04,2022-09-12,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P1-F04-01,controlador_pista,ControlSim,CS-PL400,87,P1,F04,2019-03-01,10,A,Faixa de veículos pesados (manual) - cobrança por eixo - classifica pela tabela de categorias,SIMULADO
+LAC-P2-F01-01,laco_indutivo,SensoSim,SS-LOOP2,233,P2,F01,2021-06-10,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P2-F01-01,sensor_eixo,EixoSim,ES-PZ2,233,P2,F01,2021-06-10,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P2-F01-01,controlador_pista,ControlSim,CS-PL400,233,P2,F01,2019-03-01,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias,SIMULADO
+LAC-P2-F02-01,laco_indutivo,SensoSim,SS-LOOP2,233,P2,F02,2021-06-10,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P2-F02-01,sensor_eixo,EixoSim,ES-PZ2,233,P2,F02,2021-06-10,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P2-F02-01,controlador_pista,ControlSim,CS-PL400,233,P2,F02,2019-03-01,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias,SIMULADO
+LAC-P2-F03-01,laco_indutivo,SensoSim,SS-LOOP2,233,P2,F03,2021-06-10,5,B,Faixa mista (manual + TAG) - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P2-F03-01,sensor_eixo,EixoSim,ES-PZ2,233,P2,F03,2021-06-10,5,B,Faixa mista (manual + TAG) - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P2-F03-01,controlador_pista,ControlSim,CS-PL400,233,P2,F03,2019-03-01,10,B,Faixa mista (manual + TAG) - classifica pela tabela de categorias,SIMULADO
+LAC-P2-F04-01,laco_indutivo,SensoSim,SS-LOOP2,233,P2,F04,2021-06-10,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P2-F04-01,sensor_eixo,EixoSim,ES-PZ2,233,P2,F04,2021-06-10,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P2-F04-01,controlador_pista,ControlSim,CS-PL400,233,P2,F04,2019-03-01,10,A,Faixa de veículos pesados (manual) - cobrança por eixo - classifica pela tabela de categorias,SIMULADO
+LAC-P3-F01-01,laco_indutivo,SensoSim,SS-LOOP2,398,P3,F01,2023-04-18,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P3-F01-01,sensor_eixo,EixoSim,ES-PZ2,398,P3,F01,2023-04-18,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P3-F01-01,controlador_pista,ControlSim,CS-PL400,398,P3,F01,2023-04-18,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias,SIMULADO
+LAC-P3-F02-01,laco_indutivo,SensoSim,SS-LOOP2,398,P3,F02,2023-04-18,5,A,Faixa automática (TAG) - alto fluxo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P3-F02-01,sensor_eixo,EixoSim,ES-PZ2,398,P3,F02,2023-04-18,5,A,Faixa automática (TAG) - alto fluxo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P3-F02-01,controlador_pista,ControlSim,CS-PL400,398,P3,F02,2023-04-18,10,A,Faixa automática (TAG) - alto fluxo - classifica pela tabela de categorias - firmware 3.2.0 instalado em 2025-10-06,SIMULADO
+LAC-P3-F03-01,laco_indutivo,SensoSim,SS-LOOP2,398,P3,F03,2023-04-18,5,B,Faixa mista (manual + TAG) - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P3-F03-01,sensor_eixo,EixoSim,ES-PZ2,398,P3,F03,2023-04-18,5,B,Faixa mista (manual + TAG) - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P3-F03-01,controlador_pista,ControlSim,CS-PL400,398,P3,F03,2023-04-18,10,B,Faixa mista (manual + TAG) - classifica pela tabela de categorias,SIMULADO
+LAC-P3-F04-01,laco_indutivo,SensoSim,SS-LOOP2,398,P3,F04,2023-04-18,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - detecção e separação de veículos - detector SS-DET4,SIMULADO
+EIX-P3-F04-01,sensor_eixo,EixoSim,ES-PZ2,398,P3,F04,2023-04-18,5,A,Faixa de veículos pesados (manual) - cobrança por eixo - sensor piezoelétrico vulcanizado no pavimento (conta eixos e rodagem dupla),SIMULADO
+PLC-P3-F04-01,controlador_pista,ControlSim,CS-PL400,398,P3,F04,2023-04-18,10,A,Faixa de veículos pesados (manual) - cobrança por eixo - classifica pela tabela de categorias,SIMULADO
+CAM-P2-F02-01,camera_classificacao,VigiaSim,VS-AXC,233,P2,F02,2025-08-04,6,C,PILOTO Tema 1 em modo sombra (conta eixos por imagem com edge computing; NÃO tarifa) - Faixa automática (TAG) - alto fluxo,SIMULADO
+CAM-P2-F04-01,camera_classificacao,VigiaSim,VS-AXC,233,P2,F04,2025-08-04,6,C,PILOTO Tema 1 em modo sombra (conta eixos por imagem com edge computing; NÃO tarifa) - Faixa de veículos pesados (manual) - cobrança por eixo,SIMULADO
+CAM-P1-F04-01,camera_classificacao,VigiaSim,VS-AXC,87,P1,F04,2026-03-02,6,C,PILOTO Tema 1 em modo sombra (conta eixos por imagem com edge computing; NÃO tarifa) - Faixa de veículos pesados (manual) - cobrança por eixo,SIMULADO

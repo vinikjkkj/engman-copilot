@@ -1,0 +1,55 @@
+id_fsm,tag,data_abertura,sintoma,condicao_ambiental,modo_falha,causa_identificada,tipo_intervencao,tempo_reparo_h,peca_trocada,reincidencia,origem
+FSM-2024-0001,EIX-P2-F02-01,2024-12-17,Divergência de classificação: 2 eixos lidos como 3 (auditoria: 4%),chuvas na semana,contagem_dupla,Borda do sensor com início de descolamento gerando pulso duplo,corretiva,3.0,nenhuma (reajuste de limiar no PLC),nao,SIMULADO
+FSM-2025-0001,LAC-P1-F04-01,2025-03-25,Detecção intermitente após chuva,chuva,isolacao_laco,Isolação de 35 MΩ; selante com fissuras,corretiva,3.0,reselagem de 1 m de ranhura,nao,SIMULADO
+FSM-2025-0002,EIX-P1-F04-01,2025-04-15,Eixos não contados em carretas,tempo seco,trinca_pavimento_sensor,Trinca no pavimento ao lado do sensor,corretiva,5.0,selagem de trinca,nao,SIMULADO
+FSM-2025-0003,EIX-P2-F02-01,2025-05-06,Eixos não contados em veículos leves (subclassificação),tempo seco,sinal_fraco_sensor,Amplitude do sinal a 72% do valor de comissionamento,corretiva,2.0,nenhuma (ajuste de ganho),nao,SIMULADO
+FSM-2025-0004,PLC-P1-F03-01,2025-05-27,PLC reiniciando sozinho,calor,fonte_plc,Fonte 24 V com ripple acima do limite,corretiva,2.0,fonte 24 V,nao,SIMULADO
+FSM-2025-0005,LAC-P3-F03-01,2025-06-03,Laço sem detecção (falha total),obra de drenagem na praça,cabo_alimentador,Cabo alimentador rompido por obra de drenagem,corretiva,6.0,emenda do cabo alimentador,nao,SIMULADO
+FSM-2025-0006,EIX-P2-F04-01,2025-06-17,Contagem irregular após chuva,chuva,infiltracao_sensor,Infiltração no canal do sensor,corretiva,4.0,selagem do canal,nao,SIMULADO
+FSM-2025-0007,LAC-P2-F02-01,2025-07-08,Motos não detectadas,n/d,ajuste_detector,Sensibilidade do detector baixa,corretiva,1.5,nenhuma (reajuste),nao,SIMULADO
+FSM-2025-0008,EIX-P3-F04-01,2025-07-22,Alarme de divergência de 2% sem causa encontrada,n/d,indeterminado,Nenhuma anomalia; auditoria seguinte normal,inspecao,1.0,nenhuma,nao,SIMULADO
+FSM-2025-0009,PLC-P1-F02-01,2025-08-12,Passagens não enviadas ao sistema de arrecadação por 2 h,n/d,comunicacao_plc,Switch da cabine travado,corretiva,2.0,nenhuma (reinício do switch),nao,SIMULADO
+FSM-2025-0010,EIX-P2-F02-01,2025-08-19,Divergência de classificação de 5% na auditoria PM-AUD-01,tempo seco,sinal_fraco_sensor,Amplitude a 61% do comissionamento,corretiva,2.5,nenhuma (ajuste de ganho),nao,SIMULADO
+FSM-2025-0011,LAC-P1-F01-01,2025-09-02,Divergência de classificação de 3% na auditoria,n/d,ajuste_detector,Sensibilidade do detector desajustada,corretiva,1.5,nenhuma (reajuste),nao,SIMULADO
+FSM-2025-0012,CAM-P2-F04-01,2025-09-16,Divergência piloto x sensor de solo: câmera contou 1 eixo a mais em caminhões vazios,dia,eixo_suspenso_contado,Algoritmo contou eixo suspenso como eixo em contato com o solo,inspecao,1.0,nenhuma (amostras enviadas ao fornecedor),nao,SIMULADO
+FSM-2025-0013,LAC-P2-F01-01,2025-10-07,Detecção intermitente,chuva,isolacao_laco,Infiltração na ranhura,corretiva,4.0,reselagem,nao,SIMULADO
+FSM-2025-0014,CAM-P2-F04-01,2025-10-21,Contagem falhando em 12% dos veículos no fim da tarde; mancha na imagem,pós-chuva,obstrucao_lente_cam,Respingo de barro na lente,corretiva,1.0,nenhuma (limpeza),nao,SIMULADO
+FSM-2025-0015,PLC-P3-F02-01,2025-10-28,Faixa parou de classificar; PLC sem resposta; voltou após reinício,manhã; tempo seco,plc_travamento,Watchdog não reiniciou o PLC; uptime registrado de 21 d 21 h,corretiva,1.5,nenhuma (reinício),nao,SIMULADO
+FSM-2025-0016,EIX-P1-F01-01,2025-11-04,Subclassificação de veículos leves,tempo seco,sinal_fraco_sensor,Amplitude a 70% do comissionamento,corretiva,2.0,nenhuma (ajuste de ganho),nao,SIMULADO
+FSM-2025-0017,EIX-P2-F02-01,2025-11-11,Contagem dupla de eixos após chuva forte,chuva forte,contagem_dupla,Infiltração sob a borda descolada do sensor,corretiva,5.0,"revulcanização parcial de 0,5 m de borda",nao,SIMULADO
+FSM-2025-0018,PLC-P3-F02-01,2025-11-19,PLC travado; faixa em modo manual por 40 min,noite; chuva,plc_travamento,Uptime registrado de 21 d 22 h,corretiva,1.5,fonte 24 V do PLC (troca por suspeita),sim,SIMULADO
+FSM-2025-0019,CAM-P2-F04-01,2025-12-03,Divergência de +1 eixo em caminhões com eixo suspenso,dia,eixo_suspenso_contado,Mesmo erro do algoritmo,inspecao,1.0,nenhuma (novas amostras ao fornecedor),sim,SIMULADO
+FSM-2025-0020,PLC-P3-F02-01,2025-12-11,PLC travado; cancela não abriu para 3 veículos,tarde; 31 °C,plc_travamento,Uptime registrado de 22 d 0 h; fonte nova sem anomalia,corretiva,2.0,cartão de entradas digitais (troca por suspeita),sim,SIMULADO
+FSM-2025-0021,LAC-P1-F04-01,2025-12-16,Detecção intermitente após chuva forte,chuva forte,isolacao_laco,Isolação de 22 MΩ,corretiva,4.0,reselagem de 2 m de ranhura,nao,SIMULADO
+FSM-2025-0022,EIX-P2-F03-01,2025-12-30,Alarme de divergência em veículo com reboque leve,dia,falso_positivo_operacional,Sistema classificou corretamente; tabela de consulta do operador estava desatualizada,inspecao,1.0,nenhuma,nao,SIMULADO
+FSM-2026-0001,PLC-P3-F02-01,2026-01-02,PLC travado; faixa em modo manual,madrugada; tempo seco,plc_travamento,Uptime registrado de 21 d 23 h,corretiva,1.5,nenhuma (reinício),sim,SIMULADO
+FSM-2026-0002,CAM-P2-F02-01,2026-01-13,Imagem embaçada; contagem falhando em 5% dos veículos,pós-chuva,obstrucao_lente_cam,Lente com respingo de barro,corretiva,1.0,nenhuma (limpeza),nao,SIMULADO
+FSM-2026-0003,LAC-P3-F02-01,2026-01-13,Detecção intermitente,n/d,conector_detector,Conector do detector oxidado,corretiva,1.5,conector,nao,SIMULADO
+FSM-2026-0004,EIX-P2-F02-01,2026-01-20,Subclassificação intermitente de caminhões; fila por cobrança contestada,chuva,sinal_fraco_sensor,Amplitude a 52% do comissionamento; trinca no pavimento ao redor do sensor,corretiva,6.0,revulcanização parcial + selagem de trinca,nao,SIMULADO
+FSM-2026-0005,PLC-P3-F02-01,2026-01-24,PLC travado; equipe inspecionou o armário,tarde; 28 °C,plc_travamento,Uptime de 22 d 0 h; armário a 29 °C com ventilação normal; nenhuma anomalia de hardware,corretiva,2.5,nenhuma (reinício + inspeção do armário),sim,SIMULADO
+FSM-2026-0006,CAM-P2-F04-01,2026-02-18,Alarme de divergência durante manobra de carreta com reboque na faixa,dia,falso_positivo_operacional,Manobra irregular de veículo; nenhuma falha de equipamento,inspecao,0.5,nenhuma,nao,SIMULADO
+FSM-2026-0007,EIX-P1-F04-01,2026-02-24,Contagem irregular de eixos,chuva,descolamento_sensor,"Borda solta em 0,8 m",corretiva,6.0,revulcanização parcial,nao,SIMULADO
+FSM-2026-0008,PLC-P2-F04-01,2026-03-03,Categoria 7 cobrada como categoria 6 após atualização da tabela,n/d,plc_configuracao,Tabela de categorias carregada em versão antiga,corretiva,2.0,nenhuma (tabela recarregada e conferida),nao,SIMULADO
+FSM-2026-0009,EIX-P2-F02-01,2026-03-10,Divergência de classificação de 7% na auditoria,chuva,contagem_dupla,Borda descolada novamente,corretiva,4.0,revulcanização parcial,nao,SIMULADO
+FSM-2026-0010,LAC-P1-F04-01,2026-03-24,Falha de detecção de veículos pesados; cancela não abriu,chuva,isolacao_laco,Isolação de 15 MΩ; trinca sobre a ranhura,corretiva,5.0,reselagem,nao,SIMULADO
+FSM-2026-0011,CAM-P2-F04-01,2026-04-07,Divergência de +1 eixo persiste após algoritmo v1.3,dia,eixo_suspenso_contado,Atualização do algoritmo não corrigiu a detecção de eixo suspenso,inspecao,1.0,nenhuma (relatório ao fornecedor),nao,SIMULADO
+FSM-2026-0012,EIX-P2-F02-01,2026-04-22,Eixos não contados de forma intermitente,tempo seco,trinca_pavimento_sensor,Trinca e desagregação do pavimento ao redor do sensor,corretiva,5.5,selagem paliativa,nao,SIMULADO
+FSM-2026-0013,EIX-P3-F01-01,2026-04-28,Contagem dupla de eixos,chuva,contagem_dupla,Borda com início de descolamento,corretiva,3.0,revulcanização parcial,nao,SIMULADO
+FSM-2026-0014,CAM-P2-F02-01,2026-05-05,Divergência de +1 eixo em caminhão com eixo suspenso,dia,eixo_suspenso_contado,Eixo suspenso contado como eixo,inspecao,1.0,nenhuma (relatório ao fornecedor),nao,SIMULADO
+FSM-2026-0015,LAC-P2-F02-01,2026-05-12,Detecção intermitente,n/d,conector_detector,Conector do detector oxidado no armário,corretiva,1.5,conector,nao,SIMULADO
+FSM-2026-0016,CAM-P1-F04-01,2026-05-19,Contagem falhando após ventania,vento forte,calibracao_cam,Enquadramento deslocado no suporte,corretiva,1.5,nenhuma (realinhamento),nao,SIMULADO
+FSM-2026-0017,EIX-P2-F02-01,2026-06-02,Sensor sem sinal (falha total); faixa classificando só por laço + operador,chuva,cabo_sensor,Cabo do sensor rompido por movimentação do pavimento,corretiva,8.0,emenda do cabo + caixa de passagem,nao,SIMULADO
+FSM-2026-0018,EIX-P2-F04-01,2026-06-09,Subclassificação de caminhões,tempo seco,sinal_fraco_sensor,Amplitude a 66% do comissionamento,corretiva,2.0,nenhuma (ajuste de ganho),nao,SIMULADO
+FSM-2026-0019,CAM-P2-F04-01,2026-06-23,Contagem noturna falhando,noite,iluminacao_cam,Iluminador IR com LEDs queimados,corretiva,2.0,iluminador IR,nao,SIMULADO
+FSM-2026-0020,PLC-P3-F02-01,2026-07-08,PLC travado,manhã; tempo seco,plc_travamento,Uptime de 22 d 1 h; reinício preventivo quinzenal não executado na escala,corretiva,1.5,nenhuma (reinício),nao,SIMULADO
+FSM-2026-0021,EIX-P2-F02-01,2026-07-21,Divergência de classificação de 6%,tempo seco,sinal_fraco_sensor,Amplitude a 45% do comissionamento,corretiva,3.0,nenhuma (ajuste de ganho no limite),nao,SIMULADO
+FSM-2026-0022,LAC-P2-F04-01,2026-08-04,Detecção intermitente de veículos pesados,chuvas na semana,isolacao_laco,Infiltração na ranhura,corretiva,4.0,reselagem,nao,SIMULADO
+FSM-2026-0023,EIX-P1-F01-01,2026-08-11,Contagem dupla de eixos,chuva,contagem_dupla,Borda com início de descolamento,corretiva,3.0,revulcanização parcial,nao,SIMULADO
+FSM-2026-0024,CAM-P2-F04-01,2026-08-26,Contagem falhando em 8% dos veículos; imagem embaçada,pós-chuva,obstrucao_lente_cam,Lente com película de poeira e barro,corretiva,1.0,nenhuma (limpeza),nao,SIMULADO
+FSM-2026-0025,CAM-P2-F02-01,2026-09-01,Alarme de divergência com dois veículos muito próximos,dia,falso_positivo_operacional,Veículos colados (tailgating); sensor de solo separou corretamente; nenhuma falha de equipamento,inspecao,0.5,nenhuma,nao,SIMULADO
+FSM-2026-0026,EIX-P2-F02-01,2026-09-15,Divergência de classificação de 9% e contagem dupla,chuva,contagem_dupla,"Borda descolada em 1,2 m",corretiva,4.0,revulcanização parcial,nao,SIMULADO
+FSM-2026-0027,CAM-P1-F04-01,2026-09-22,Divergência de +1 eixo em caminhão com eixo suspenso,dia,eixo_suspenso_contado,Eixo suspenso contado como eixo,inspecao,1.0,nenhuma (relatório ao fornecedor),nao,SIMULADO
+FSM-2026-0028,LAC-P1-F04-01,2026-09-29,Detecção intermitente após chuva,chuva,isolacao_laco,Isolação de 12 MΩ,corretiva,4.0,reselagem paliativa,nao,SIMULADO
+FSM-2026-0029,CAM-P2-F04-01,2026-10-13,Divergência de +1 eixo em 4% dos veículos pesados,dia,eixo_suspenso_contado,Eixo suspenso contado como eixo,inspecao,1.0,nenhuma (relatório ao fornecedor),nao,SIMULADO
+FSM-2026-0030,PLC-P2-F01-01,2026-10-20,Eixos contados pelo sensor não chegam ao PLC,n/d,entrada_digital_plc,Cartão de entradas digitais com canal queimado,corretiva,2.5,cartão de entradas digitais,nao,SIMULADO
+FSM-2026-0031,EIX-P2-F02-01,2026-10-27,Eixos não contados de forma intermitente,chuva,sinal_fraco_sensor,Amplitude a 38% do comissionamento,corretiva,3.5,nenhuma (sem margem de ajuste),nao,SIMULADO
